@@ -1,7 +1,6 @@
 package com.example.musicalstructureapp;
 
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,22 +21,19 @@ public class Songs extends AppCompatActivity {
 
         songs.add(new SongDetails("East Side", "Halsey"));
         songs.add(new SongDetails("Venom", "Eminem"));
-//        songs.add("East Side");
-//        songs.add("Venom");
-//        songs.add("Castle on the hill");
-//        songs.add("Photograph");
-//        songs.add("Mockingbird");
-//        songs.add("Lose Yourself");
-//        songs.add("So will I");
-//        songs.add("Better");
-//        songs.add("American Teen");
-//        songs.add("Vertigo");
+        songs.add(new SongDetails("Castle on the hill", "Ed Sheran"));
+        songs.add(new SongDetails("Photograph", "Ed Sheran"));
+        songs.add(new SongDetails("Mockingbird", "Eminem"));
+        songs.add(new SongDetails("Lose Yourself", "Eminem"));
+        songs.add(new SongDetails("So will I", "Hillsong"));
+        songs.add(new SongDetails("Better", "Eminem"));
+        songs.add(new SongDetails("Venom", "Khalid"));
+        songs.add(new SongDetails("Vertigo", "Khalid"));
 
-        //LinearLayout songsRootView = (LinearLayout)findViewById(R.id.list);
 
 
         //setting up while loop to display songs
-       SongAdapter adapter = new SongAdapter  (this, R.layout.list_songs, songs);
+       SongAdapter adapter = new SongAdapter  (this, songs);
 
         ListView listView = (ListView) findViewById(R.id.listSongs);
 
