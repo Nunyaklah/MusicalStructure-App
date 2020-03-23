@@ -9,15 +9,10 @@ public class SongDetails {
         mSongName = songName;
         mArtistName = artistName;
     }
-
-
     public String getSongName() {
         return mSongName;
     }
-
-
     public String getArtistName() {
         return mArtistName;
     }
-
 }

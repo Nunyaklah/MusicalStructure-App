@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Musical Structure App</string>
+    <string name="songs">SONGS</string>
+    <string name="albums">ALBUMS</string>
+    <string name="playlists">PLAYLISTS</string>
+    <string name="recently_played">RECENTLY PLAYED</string>
+    <string name="no_played_yet">No Played Yet</string>
+    <string name="no_playlists_yet">No PlayLists Yet</string>
+    <string name="no_albums_yet">No Albums Yet</string>
+    <string name="songs_menu">Songs</string>
+    <string name="playlists_menu">Playlists</string>
+    <string name="played_menu">Played</string>
+    <string name="albums_menu">Albums</string>
 </resources>

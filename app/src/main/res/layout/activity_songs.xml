@@ -6,6 +6,5 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:id="@+id/listSongs"
-    tools:context=".Songs">
-
+    tools:context=".SongsActivity">
 </ListView>

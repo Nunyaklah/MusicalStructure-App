@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/albums"
+        android:title="@string/albums_menu"
+        app:showAsAction="always"
+        android:icon="@drawable/albums" />
+    <item
+        android:id="@+id/songs"
+        android:title="@string/songs_menu"
+        app:showAsAction="always"
+        android:icon="@drawable/songs" />
+    <item
+        android:id="@+id/playlists"
+        android:title="@string/playlists_menu"
+        app:showAsAction="always"
+        android:icon="@drawable/playlists" />
+    <item
+        android:id="@+id/played"
+        android:title="@string/played_menu"
+        app:showAsAction="always"
+        android:icon="@drawable/played" />
+</menu>
